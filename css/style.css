@@ -63,12 +63,12 @@ nav ul li a {
 }
 .linha-inclinada {
     position: absolute;
-    top: 50%; /* Centraliza verticalmente */
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: white;
+    top: 100%; /* Centraliza verticalmente */
+    left: 30%;
+    width: 200%;
+    height: 350px;
+    background-color: #D82148;
     transform-origin: bottom left; /* Define o ponto de origem da rotação */
-    transform: translateY(-50%) rotate(-10deg); /* Inclinação de -10 graus */
+    transform: translateY(-50%) rotate(-80deg); /* Inclinação de -10 graus */
     z-index: -1; /* Coloca a linha atrás do conteúdo */
 }
