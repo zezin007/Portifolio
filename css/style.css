@@ -1,0 +1,63 @@
+body{
+    background-color: #151D3B;
+}
+.elemento-com-linha::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 4%;
+    width: 2px; /* Largura da linha */
+    height: 15%; /* Altura da linha */
+    background-color: #D82148;
+    transform: translateX(-50%);
+    z-index: -1; /* Coloca a linha atrás do conteúdo */
+}
+.posicao-logos{
+    position: relative;
+}
+
+.email {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 40px;
+    height: 40px;
+}
+.insta {
+    position: absolute;
+    top: 49px;
+    left: 6px;
+    width: 40px;
+    height: 40px;
+}
+.zap {
+    position: absolute;
+    top: 94px;
+    left: 6px;
+    width: 40px;
+    height: 40px;
+}
+header {
+    background-color: rgba(216, 33, 72, 0.71); /* Cor com 70% de opacidade */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Efeito de desfoque */
+  transition: backdrop-filter 0.3s ease; /* Transição suave do efeito */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #E1FFEC;
+    text-decoration: none;
+}
